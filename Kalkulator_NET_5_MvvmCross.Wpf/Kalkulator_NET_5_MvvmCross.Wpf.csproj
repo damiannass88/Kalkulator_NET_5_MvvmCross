@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MvvmCross" Version="8.0.2" />
+    <PackageReference Include="MvvmCross.Platforms.Wpf" Version="8.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Kalkulator_NET_5_MvvmCross.Core\Kalkulator_NET_5_MvvmCross.Core.csproj" />
+  </ItemGroup>
+
+</Project>

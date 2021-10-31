@@ -9,13 +9,7 @@ namespace Kalkulator_NET_5_MvvmCross.Core.ViewModels
 {
    public class KalkulatorViewModel : MvxViewModel
     {
-        private string myVar;
-
-        public string MyProperty
-        {
-            get { return myVar; }
-            set { myVar = value; }
-        }
+        
 
     }
 }
