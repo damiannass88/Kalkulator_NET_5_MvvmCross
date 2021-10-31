@@ -1,4 +1,8 @@
-﻿using MvvmCross.Platforms.Wpf.Views; 
+﻿using MvvmCross.Platforms.Wpf.Views;
+using MvvmCross.Platforms.Wpf.Presenters.Attributes;
+using Kalkulator_NET_5_MvvmCross.Core.ViewModels;
+using MvvmCross.ViewModels;
+using System;
 
 namespace Kalkulator_NET_5_MvvmCross.Wpf
 {
